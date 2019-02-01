@@ -29,6 +29,7 @@ public interface Connection {
 
     /**
      * GET and POST http methods. 588866h
+     * 
      */
     
     enum Method {
