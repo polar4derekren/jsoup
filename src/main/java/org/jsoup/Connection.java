@@ -30,6 +30,7 @@ public interface Connection {
     /**
      * GET and POST http methods. 588866h
      */
+    
     enum Method {
         GET(false), POST(true), PUT(true), DELETE(false), PATCH(true), HEAD(false), OPTIONS(false), TRACE(false);
 
@@ -37,6 +38,7 @@ public interface Connection {
 
         Method(boolean hasBody) {
             this.hasBody = hasBody;
+            
         }
 
         /**
